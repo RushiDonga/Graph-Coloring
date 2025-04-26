@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Graph-Coloring/static/css/main.c8d4ca13.css",
+    "main.js": "/Graph-Coloring/static/js/main.50c759c4.js",
+    "static/js/787.f2e12969.chunk.js": "/Graph-Coloring/static/js/787.f2e12969.chunk.js",
+    "index.html": "/Graph-Coloring/index.html",
+    "main.c8d4ca13.css.map": "/Graph-Coloring/static/css/main.c8d4ca13.css.map",
+    "main.50c759c4.js.map": "/Graph-Coloring/static/js/main.50c759c4.js.map",
+    "787.f2e12969.chunk.js.map": "/Graph-Coloring/static/js/787.f2e12969.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8d4ca13.css",
+    "static/js/main.50c759c4.js"
+  ]
+}
