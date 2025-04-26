@@ -1,6 +1,6 @@
 ### Analysis of First Fit and CBIP Algorithms on Online Graph Coloring - COMP-6651 Project Winter 2023
 
-*Interactive GUI for this project can be found [here](https://rushidonga.github.io/graph-coloring).* 
+*Interactive GUI for this project can be found [here](https://rushidonga.github.io/Graph-Coloring).* 
 
 # Contents
 
