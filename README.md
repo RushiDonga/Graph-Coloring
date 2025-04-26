@@ -1,6 +1,6 @@
 ### Analysis of First Fit and CBIP Algorithms on Online Graph Coloring - COMP-6651 Project Winter 2023
 
-*Interactive GUI for this project can be found [here](https://mihirgediya2001.github.io/graph-coloring).* 
+*Interactive GUI for this project can be found [here](https://rushidonga.github.io/graph-coloring).* 
 
 # Contents
 
@@ -16,8 +16,8 @@ We implmented the graph generation, first fit and CBIP in bothe `Jasvscript` and
 
 |              | Graph Geneartion | First Fit | CBIP     | Benchmarking |
 |--------------|------------------|-----------|----------|--------------|
-| `C++`        | [link](https://github.com/mihirgediya2001/graph-coloring/blob/main/cpp/analysis.cpp#L176)         | [link](https://github.com/mihirgediya2001/graph-coloring/blob/main/cpp/analysis.cpp#L77)  | [link](https://github.com/mihirgediya2001/graph-coloring/blob/main/cpp/analysis.cpp#L107) | [link](https://github.com/mihirgediya2001/graph-coloring/blob/main/cpp/analysis.cpp#L346)     |
-| `JavaScript` | [link](https://github.com/mihirgediya2001/graph-coloring/blob/main/src/generator.js#L22)         | [link](https://github.com/mihirgediya2001/graph-coloring/blob/main/src/first_fit.js)  | [link](https://github.com/mihirgediya2001/graph-coloring/blob/main/src/cbip.js) | -    |
+| `C++`        | [link](https://github.com/rushidonga/graph-coloring/blob/main/cpp/analysis.cpp#L176)         | [link](https://github.com/rushidonga/graph-coloring/blob/main/cpp/analysis.cpp#L77)  | [link](https://github.com/rushidonga/graph-coloring/blob/main/cpp/analysis.cpp#L107) | [link](https://github.com/rushidonga/graph-coloring/blob/main/cpp/analysis.cpp#L346)     |
+| `JavaScript` | [link](https://github.com/rushidonga/graph-coloring/blob/main/src/generator.js#L22)         | [link](https://github.com/rushidonga/graph-coloring/blob/main/src/first_fit.js)  | [link](https://github.com/rushidonga/graph-coloring/blob/main/src/cbip.js) | -    |
 
 # How to Run
 
@@ -25,7 +25,7 @@ The project can be divided into mainly two parts. One being GUI and second being
 
 ## Analysis
 
-In the [cpp](https://github.com/mihirgediya2001/graph-coloring/tree/main/cpp) directory you can find two programs: [`main.cpp`](https://github.com/mihirgediya2001/graph-coloring/tree/main/cpp) and [`analysis.cpp`](https://github.com/mihirgediya2001/graph-coloring/blob/main/cpp/analysis.cpp). `main.cpp` implmentes the first fit and CBIP algorithm and runs it on a sample given in the project defination document. `analysis.cpp` contains random graph generation in addition to first fit and CBIP algorithm. Running `analysis.cpp` will create `csv` files in `csvs/` directory containing average competitive ratio over `100` runs for a random k-colrable graph with probabilty `p` of adding edges. To run any of the file you will need `g++` installed. **Please note that `stdc++17` is required to compile and run `analysis.cpp`**.
+In the [cpp](https://github.com/rushidonga/graph-coloring/tree/main/cpp) directory you can find two programs: [`main.cpp`](https://github.com/rushidonga/graph-coloring/tree/main/cpp) and [`analysis.cpp`](https://github.com/rushidonga/graph-coloring/blob/main/cpp/analysis.cpp). `main.cpp` implmentes the first fit and CBIP algorithm and runs it on a sample given in the project defination document. `analysis.cpp` contains random graph generation in addition to first fit and CBIP algorithm. Running `analysis.cpp` will create `csv` files in `csvs/` directory containing average competitive ratio over `100` runs for a random k-colrable graph with probabilty `p` of adding edges. To run any of the file you will need `g++` installed. **Please note that `stdc++17` is required to compile and run `analysis.cpp`**.
 
 ## GUI
 
